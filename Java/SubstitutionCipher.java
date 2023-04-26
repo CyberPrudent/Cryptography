@@ -1,4 +1,4 @@
-// Author: CyberPrudent AKA Andrew
+// Author: Andrew AKA CyberPrudent
 // Description:
 //
 // A Substitution Cipher is a type of cipher in which each letter in the plaintext is replaced by another letter based on a fixed mapping.
