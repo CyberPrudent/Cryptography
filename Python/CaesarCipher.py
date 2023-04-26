@@ -1,5 +1,7 @@
 # Author: CyberPrudent AKA Andrew
-# Description: The encrypt() method takes in a string message and an integer key, and returns the encrypted message.
+# Description:
+#
+# The encrypt() method takes in a string message and an integer key, and returns the encrypted message.
 # It loops through each character in the message and checks if it is a letter. If it is, it converts the character to uppercase,
 # shifts it by the key value, and adds the shifted character to the encrypted message. It returns the encrypted message.
 #
