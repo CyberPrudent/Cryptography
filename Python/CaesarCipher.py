@@ -1,4 +1,4 @@
-# Author: CyberPrudent AKA Andrew
+# Author: Andrew AKA CyberPrudent
 # Description:
 #
 # The encrypt() method takes in a string message and an integer key, and returns the encrypted message.
