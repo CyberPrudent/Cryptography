@@ -1,4 +1,6 @@
 // Author: CyberPrudent AKA Andrew
+// Description:
+//
 // A Substitution Cipher is a type of cipher in which each letter in the plaintext is replaced by another letter based on a fixed mapping.
 // In this program, the substitution key is defined as a Map from plaintext characters to ciphertext characters. For example, the letter 'a' 
 // is mapped to the letter 'm', 'b' to 'n', and so on.
