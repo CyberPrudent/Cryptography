@@ -1,4 +1,4 @@
-// Author: CyberPrudent AKA Andrew
+// Author: Andrew AKA CyberPrudent
 // Description:
 //
 // The encrypt method takes in a plaintext message and a key as parameters and returns the encrypted ciphertext message.
