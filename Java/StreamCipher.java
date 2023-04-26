@@ -1,4 +1,4 @@
-// Author: CyberPrudent AKA Andrew
+// Author: Andrew AKA CyberPrudent
 // Description:
 //
 // The program implements a simple Stream Cipher using the XOR operation. The cipher works by taking
