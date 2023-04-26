@@ -1,4 +1,4 @@
-// Author: CyberPrudent AKA Andrew
+// Author: Andrew AKA CyberPrudent
 // Description:
 //
 // If you're interested in learning about more advanced hashing algorithms, check out the Central-Dogma-Hash-Algorithm.
