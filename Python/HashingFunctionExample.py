@@ -1,6 +1,11 @@
 # Author: CyberPrudent AKA Andrew
 # Description:
 #
+# If you're interested in learning about more advanced hashing algorithms, check out the Central-Dogma-Hash-Algorithm.
+# This algorithm was developed as part of a team project and is significantly more complicated than this example as we made
+# sure to create a hashing algorithm from scratch that is one-way and with a low probability of collision. You can try out the 
+# Central-Dogma-Hash-Algorithm for yourself on our project website at https://andrew-musa.github.io/cpsc329/.
+#
 # This program prompts the user to enter a string to hash and computes the SHA-256 hash value of the input string.
 # It then converts the hash value to a hexadecimal string and prints the resulting hashed string to the console.
 #
