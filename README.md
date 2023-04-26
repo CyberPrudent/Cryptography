@@ -18,13 +18,13 @@ To run any of the programs in this repository, you'll need to have the appropria
 
 Once you have the required language installed, you can clone this repository to your local machine using the following command:
 
-  ```git clone https://github.com/CyberPrudent/Cryptography.git```
+    git clone https://github.com/CyberPrudent/Cryptography.git
 
 ## Running the Programs
 
 To run any of the programs in this repository, navigate to the appropriate directory and run the program using the appropriate command. For example, to run the XorCrypt program in the Java directory, you would navigate to the java directory and run the following command:
 
-      ```java XorCrypt```
+      java XorCrypt
 
 ## Central-Dogma-Hash-Algorithm
 
