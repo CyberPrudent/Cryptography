@@ -1,7 +1,8 @@
 # Cryptography Programs
 
-This repository contains Java and Python programs for various cryptography topics.
-Topics Covered
+This repository contains Java and Python programs for various Cryptography topics.
+
+## Topics Covered:
 
    * XOR
    * Caesar Cipher
