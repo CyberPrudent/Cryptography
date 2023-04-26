@@ -1,4 +1,4 @@
-// Author: CyberPrudent AKA Andrew
+// Author: Andrew AKA CyberPrudent
 // Description:
 // 
 // In this program, the encrypt() method takes in a message and a key (an integer value) as input and returns the encrypted message.
