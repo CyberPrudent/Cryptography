@@ -1,4 +1,4 @@
-// Author: CyberPrudent AKA Andrew
+// Author: Andrew AKA CyberPrudent
 // Description:
 //
 // This program demonstrates the use of a Block Cipher by encrypting a plaintext message using the Advanced Encryption
