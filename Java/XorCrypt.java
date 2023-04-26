@@ -1,5 +1,7 @@
 // Author: CyberPrudent AKA Andrew
-// Description: To use this program, simply run it and enter a message and a key of the same length.
+// Description:
+// 
+// To use this program, simply run it and enter a message and a key of the same length.
 // The program will then encrypt the message using XOR with the key and print out the encrypted message.
 // It will then decrypt the encrypted message using the same key and print out the decrypted message.
 
