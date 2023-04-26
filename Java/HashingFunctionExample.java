@@ -1,6 +1,11 @@
 // Author: CyberPrudent AKA Andrew
 // Description:
 //
+// If you're interested in learning about more advanced hashing algorithms, check out the Central-Dogma-Hash-Algorithm.
+// This algorithm was developed as part of a team project and is significantly more complicated than this example as we made
+// sure to create a hashing algorithm from scratch that is one-way and with a low probability of collision. You can try out the 
+// Central-Dogma-Hash-Algorithm for yourself on our project website at https://andrew-musa.github.io/cpsc329/.
+//
 // This program demonstrates the use of hashing functions in cryptography. The program prompts the user to
 // enter a string to hash, which is then processed using the SHA-256 hashing algorithm. The program first creates
 // an instance of the MessageDigest class with the SHA-256 algorithm specified. It then applies the hashing function
@@ -8,12 +13,6 @@
 // a string representation using hexadecimal notation. Finally, the program outputs the hashed string to the console.
 // If the specified algorithm is not available, the program catches the NoSuchAlgorithmException exception and outputs
 // an error message.
-//
-// If you're interested in learning about more advanced hashing algorithms, check out the Central-Dogma-Hash-Algorithm.
-// This algorithm was developed as part of a team project and is significantly more complicated than this example as we made
-// sure to create a hashing algorithm from scratch that is one-way and with a low probability of collision. You can try out the 
-// Central-Dogma-Hash-Algorithm for yourself on our project website at https://andrew-musa.github.io/cpsc329/.
-
 
 import java.security.MessageDigest; // Import the MessageDigest class for hashing
 import java.security.NoSuchAlgorithmException; // Import the exception class for handling algorithm errors
