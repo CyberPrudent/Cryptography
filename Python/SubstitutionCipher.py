@@ -1,4 +1,4 @@
-# Author: CyberPrudent AKA Andrew
+# Author: Andrew AKA CyberPrudent
 # Description:
 #
 # This program implements a simple Substitution Cipher, which is a method of encryption that replaces each letter
