@@ -1,5 +1,7 @@
 # Author: CyberPrudent AKA Andrew
-# Description: This program implements a simple Substitution Cipher, which is a method of encryption that replaces each letter
+# Description:
+#
+# This program implements a simple Substitution Cipher, which is a method of encryption that replaces each letter
 # in the plaintext with a different letter in the ciphertext, according to a predefined substitution key. The program defines
 # the substitution key as a dictionary from plaintext characters to ciphertext characters.
 #
