@@ -15,33 +15,33 @@
 // Central-Dogma-Hash-Algorithm for yourself on our project website at https://andrew-musa.github.io/cpsc329/.
 
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Scanner;
+import java.security.MessageDigest; // Import the MessageDigest class for hashing
+import java.security.NoSuchAlgorithmException; // Import the exception class for handling algorithm errors
+import java.util.Scanner; // Import the Scanner class for reading user input
 
 public class HashingFunctionExample {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a string to hash: ");
-        String input = scanner.nextLine();
+        Scanner scanner = new Scanner(System.in); // Create a Scanner object for user input
+        System.out.println("Enter a string to hash: "); // Prompt the user to enter a string to hash
+        String input = scanner.nextLine(); // Read the user input string
 
         try {
-            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
-            byte[] hash = messageDigest.digest(input.getBytes());
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256"); // Create a MessageDigest object with the SHA-256 algorithm
+            byte[] hash = messageDigest.digest(input.getBytes()); // Compute the hash value of the input string
 
-            StringBuilder stringBuilder = new StringBuilder();
-            for (int i = 0; i < hash.length; i++) {
-                String hex = Integer.toHexString(0xff & hash[i]);
-                if (hex.length() == 1) {
+            StringBuilder stringBuilder = new StringBuilder(); // Create a StringBuilder object for constructing the hashed string
+            for (int i = 0; i < hash.length; i++) { // Iterate over the bytes in the hash value
+                String hex = Integer.toHexString(0xff & hash[i]); // Convert the byte to a hexadecimal string
+                if (hex.length() == 1) { // If the string is only one character long, append a leading 0 to make it two characters
                     stringBuilder.append('0');
                 }
-                stringBuilder.append(hex);
+                stringBuilder.append(hex); // Append the hexadecimal string to the StringBuilder object
             }
 
-            String hashedString = stringBuilder.toString();
-            System.out.println("Hashed String: " + hashedString);
-        } catch (NoSuchAlgorithmException e) {
-            System.out.println("Error: " + e.getMessage());
+            String hashedString = stringBuilder.toString(); // Convert the StringBuilder object to a string
+            System.out.println("Hashed String: " + hashedString); // Print the hashed string
+        } catch (NoSuchAlgorithmException e) { // Catch any errors related to the hashing algorithm
+            System.out.println("Error: " + e.getMessage()); // Print an error message
         }
     }
 }
