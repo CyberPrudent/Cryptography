@@ -29,4 +29,4 @@ To run any of the programs in this repository, navigate to the appropriate direc
 
 ## Central-Dogma-Hash-Algorithm
 
-Finally, If you're interested in learning about more advanced hashing algorithms, check out the Central-Dogma-Hash-Algorithm. This algorithm was developed as part of a team project and is significantly more complicated than this example as we made sure to create a hashing algorithm from scratch that is one-way and with a low probability of collision. You can try out the Central-Dogma-Hash-Algorithm for yourself on our project website at https://andrew-musa.github.io/cpsc329/.
+If you're interested in learning about more advanced hashing algorithms, check out the Central-Dogma-Hash-Algorithm. This algorithm was developed as part of a team project and is significantly more complicated than this example as we made sure to create a hashing algorithm from scratch that is one-way and with a low probability of collision. You can try out the Central-Dogma-Hash-Algorithm for yourself on our project website at https://andrew-musa.github.io/cpsc329/.
