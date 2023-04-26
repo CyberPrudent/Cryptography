@@ -1,4 +1,4 @@
-// Author: CyberPrudent AKA Andrew
+// Author: Andrew AKA CyberPrudent
 // Description:
 //
 // This program demonstrates how the RSA public-key cryptosystem can be implemented using Java's BigInteger and SecureRandom classes.
