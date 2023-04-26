@@ -1,4 +1,4 @@
-# Author: CyberPrudent AKA Andrew
+# Author: Andrew AKA CyberPrudent
 # Description:
 #
 # The program is a demonstration of AES encryption using the Cipher Block Chaining (CBC) mode of operation
