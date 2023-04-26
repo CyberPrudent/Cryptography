@@ -1,5 +1,7 @@
 // Author: CyberPrudent AKA Andrew
-// Description: In this program, the encrypt() method takes in a message and a key (an integer value) as input and returns the encrypted message.
+// Description:
+// 
+// In this program, the encrypt() method takes in a message and a key (an integer value) as input and returns the encrypted message.
 // The decrypt() method takes in an encrypted message and the same key used for encryption and returns the decrypted message.
 //
 // The program uses the Caesar Cipher algorithm, which shifts each letter in the message by the key number of positions in the alphabet.
