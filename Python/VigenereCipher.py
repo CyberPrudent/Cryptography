@@ -1,4 +1,4 @@
-# Author: CyberPrudent AKA Andrew
+# Author: Andrew AKA CyberPrudent
 # Description:
 #
 # The VigenereCipher class has two methods: encrypt() and decrypt(). The main() method defines the plaintext message and
